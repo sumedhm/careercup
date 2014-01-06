@@ -82,4 +82,5 @@ int main(){
 	cout << "\n\nNumber of occurences of " << string << " in the matrix are " << occurences << ".\n\n";
 
 	return 0;
+	free(matrix);
 }
